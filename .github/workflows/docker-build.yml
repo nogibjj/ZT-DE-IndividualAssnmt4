@@ -25,4 +25,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: JTuratkhan/my-flask-app:latest
+        tags: jturatkhan/my-flask-app:tagname
