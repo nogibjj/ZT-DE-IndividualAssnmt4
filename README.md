@@ -1,41 +1,40 @@
-# ZT-DE-IndividualAssnmt4
-
 # Auto-Scaling Flask App on Azure
 
 ## Project Overview
 
-This project is a Flask web application designed to demonstrate auto-scaling capabilities using Azure App Services. The application features a simple interface that responds to HTTP requests with a welcome message.
+This repository contains a Flask web application designed to demonstrate the auto-scaling features of Azure App Services. The application provides a simple web page that displays a welcome message and can be scaled automatically based on demand.
 
 ## Dependencies
 
-- Flask
-- gunicorn (for WSGI HTTP Server)
-- azure-storage-blob (for Azure Blob Storage interaction, if used)
-- Any other libraries listed in `requirements.txt`
+- Flask: A lightweight WSGI web application framework.
+- gunicorn: A Python WSGI HTTP Server for UNIX.
+- azure-storage-blob: Azure Blob Storage interaction library (if used).
+- Other required libraries are listed in `requirements.txt`.
 
-## How to Run
+## How to Run the Application
 
 ### Local Setup
 
 1. Clone the repository:
-git clone https://github.com/nogibjj/ZT-DE-IndividualAssnmt4
+   ```sh
+   git clone https://github.com/nogibjj/ZT-DE-IndividualAssnmt4
 
-2. Navigate to the repo directory:
+#### 1. Navigate to the repository directory
 cd ZT-DE-IndividualAssnmt4
 
-3. Install dependencies:
+#### 2. Install the dependencies
 pip install -r requirements.txt
 
-4. Run the application:
+#### 3. Run the application
 python app.py
 
+## RUNNING WITH DOCKER
 
-### Running with Docker
-
-1. Build the Docker image:
+#### 1. Build the Docker image:
 docker build -t my-flask-app .
 
-2. Run the Docker container:
+#### 2. Run the Docker container:
 docker run -p 5000:5000 my-flask-app
 
-# Visions of Gideon
+## DEPLOYING TO AZURE
+The app is containerized and deployed to Azure Web App, with auto-scaling configured to handle varying loads.
