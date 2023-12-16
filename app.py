@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template
-from random import choices
+from random import choice
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def random_fruit():
     """Returns random fruit"""
 
     fruits = ["watermelon", "banana", "blueberry"]
-    return choices(fruits)
+    return choice(fruits)
 
 
 @app.route("/")
