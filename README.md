@@ -20,25 +20,25 @@ This repository contains a Flask web application designed to demonstrate the aut
    'git clone https://github.com/nogibjj/ZT-DE-IndividualAssnmt4'
 
 #### 1. Navigate to the repository directory
-   '''sh
+   ```sh
    'cd ZT-DE-IndividualAssnmt4'
 
 #### 2. Install the dependencies
-   '''sh
+   ```sh
    'pip install -r requirements.txt'
 
 #### 3. Run the application
-   '''sh
+   ```sh
    'python app.py'
 
 ## RUNNING WITH DOCKER
 
 #### 1. Build the Docker image:
-   '''sh
+   ```sh
    'docker build -t my-flask-app .'
 
 #### 2. Run the Docker container:
-   '''sh
+   ```sh
    'docker run -p 5000:5000 my-flask-app'
 ![alt text](templates/Docker.png)
 
