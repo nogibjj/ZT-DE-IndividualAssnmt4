@@ -1,3 +1,4 @@
+[![Python 3.8](https://github.com/nogibjj/ZT-DE-IndividualAssnmt4/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/ZT-DE-IndividualAssnmt4/actions/workflows/main.yml)
 # Auto-Scaling Flask App on Azure 🍉🍌🫐
 
 ## Project Overview
