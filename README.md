@@ -48,4 +48,4 @@ This repository contains a Flask web application designed to demonstrate the aut
 The app is containerized and deployed to Azure Web App, with auto-scaling configured to handle varying loads.
 ![alt text](templates/Azure.png)
 
-## DEMO VIDEO:
+## DEMO VIDEO: https://vimeo.com/895160897/58dd8eb599?share=copy 
