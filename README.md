@@ -35,6 +35,8 @@ docker build -t my-flask-app .
 
 #### 2. Run the Docker container:
 docker run -p 5000:5000 my-flask-app
+![alt text](templates/Docker.png)
 
 ## DEPLOYING TO AZURE
 The app is containerized and deployed to Azure Web App, with auto-scaling configured to handle varying loads.
+![alt text](templates/Azure.png)
