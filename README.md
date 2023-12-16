@@ -1,4 +1,4 @@
-# Auto-Scaling Flask App on Azure
+# Auto-Scaling Flask App on Azure 🍉🍌🫐
 
 ## Project Overview
 
